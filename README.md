@@ -57,29 +57,29 @@ The output waveform is in phase with the input waveform.
 •	Practical values are close to theoretical values.
 ## Viva Questions
 1.	What is a Non-Inverting Amplifier?
-
-A Non-Inverting Amplifier is an op-amp configuration in which the input signal is applied to the non-inverting terminal (+) and the output is taken from the output pin. The output signal is amplified and remains in phase with the input signal.
+• A Non-Inverting Amplifier is an op-amp configuration in which the input signal is applied to the non-inverting terminal (+) and the output is taken from the output pin. The output signal is amplified and remains in phase with the input signal.
 
 2.	What is the gain formula?
-
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>A</mi><mi>v</mi></msub><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><msub><mi>R</mi><mi>f</mi></msub><msub><mi>R</mi><mn>1</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">A_v = 1 + \frac{R_f}{R_1}</annotation></semantics></math>
+•Av​=1+R1​/Rf​​
 
 3.	Why is output in phase?
-
-Because the input is applied to the non-inverting terminal (+) of the op-amp. Therefore, the output signal has 0° phase shift (no inversion).
+•Because the input is applied to the non-inverting terminal (+) of the op-amp. Therefore, the output signal has 0° phase shift (no inversion).
 
 4.	What happens if Rf increases?
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>A</mi><mi>v</mi></msub><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><msub><mi>R</mi><mi>f</mi></msub><msub><mi>R</mi><mn>1</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">A_v = 1 + \frac{R_f}{R_1}</annotation></semantics></math>
+If 𝑅𝑓 increases:
 
+𝐴𝑣 =1+𝑅𝑓/𝑅1​
+
+The gain increases.
+So, the output voltage increase
 
 5.	What is the input impedance of non-inverting amplifier?
+•The input impedance is very high (ideally infinite) because the input is applied directly to the op-amp terminal.
 
-The input impedance is very high (ideally infinite) because the input is applied directly to the op-amp terminal.
+•High input impedance means:
 
-High input impedance means:
+•It does not load the signal source.
 
-It does not load the signal source.
-
-Very small input current flows.
+•Very small input current flows.
 
