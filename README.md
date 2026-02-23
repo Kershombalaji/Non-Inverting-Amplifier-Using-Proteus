@@ -57,12 +57,15 @@ The output waveform is in phase with the input waveform.
 •	Practical values are close to theoretical values.
 ## Viva Questions
 1.	What is a Non-Inverting Amplifier?
+
 • A Non-Inverting Amplifier is an op-amp configuration in which the input signal is applied to the non-inverting terminal (+) and the output is taken from the output pin. The output signal is amplified and remains in phase with the input signal.
 
 2.	What is the gain formula?
+
 •Av​=1+R1​/Rf​​
 
 3.	Why is output in phase?
+
 •Because the input is applied to the non-inverting terminal (+) of the op-amp. Therefore, the output signal has 0° phase shift (no inversion).
 
 4.	What happens if Rf increases?
